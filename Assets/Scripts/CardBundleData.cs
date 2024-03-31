@@ -11,8 +11,8 @@ namespace Assets.Scripts
     public class CardBundleData : ScriptableObject
     {
         [SerializeField]
-        private CardData[] _cardData;
+        private List<CardData> _cardData;
 
-        public CardData[] CardData => _cardData;
+        public List<CardData> CardData => _cardData;
     }
 }

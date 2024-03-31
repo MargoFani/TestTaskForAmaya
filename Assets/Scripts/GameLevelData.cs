@@ -13,8 +13,11 @@ namespace Assets.Scripts
         [SerializeField]
         private int _identifier;
         [SerializeField]
-        private int _answerVariantsCount;
+        private int _answerVariantsCountInRow;
+        [SerializeField]
+        private int _answerVariantsCountInColumn;
         public int Identifier => _identifier;
-        public int AnswerVariantsCount => _answerVariantsCount;
+        public int RowCount => _answerVariantsCountInRow;
+        public int ColumnCount => _answerVariantsCountInColumn;
     }
 }

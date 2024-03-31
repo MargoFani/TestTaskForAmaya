@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: 1_LevelData
   m_EditorClassIdentifier: 
   _identifier: 1
-  _answerVariantsCount: 3
+  _answerVariantsCountInRow: 1
+  _answerVariantsCountInColumn: 3
